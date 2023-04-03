@@ -1,11 +1,9 @@
 {
   "required": true,
-  "package": "com.example.examplemod.mixin",
+  "minVersion": "0.8",
+  "package": "rocks.katiekatiekatie.fuelgoeshereironfurnaces.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
-  ],
-  "client": [
-    "ExampleMixin"
   ],
   "injectors": {
     "defaultRequire": 1
