@@ -3,38 +3,36 @@ loaderVersion = "[40,)"
 license = "MIT"
 
 [[mods]]
-modId = "fuelgoeshereironfurnaces"
+modId = "fuelgoeshereif"
 version = "${version}"
 
 displayName = "Fuel Goes Here (Iron Furnaces)"
-# displayURL = "https://changeme.dev/"
-# logoFile = "icon.png"
+# displayURL = "https://github.com/unilock/FuelGoesHereIF"
 
-authors = "Kate, LobsterJonn"
+authors = "kate"
 description = '''
-blahhh
-'''
-credits = '''
-LobsterJonn for Fuel Goes Here
+Makes furnace fuel always go in the fuel slot first (with Iron Furnaces)
+
+A partial derivative of "Fuel Goes Here" by LobsterJonn:
 https://www.curseforge.com/minecraft/mc-mods/fuelgoeshere
 '''
 
 
-[[dependencies.fuelgoeshereironfurnaces]]
+[[dependencies.fuelgoeshereif]]
 modId = "forge"
 mandatory = true
 versionRange = "[40,)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.fuelgoeshereironfurnaces]]
+[[dependencies.fuelgoeshereif]]
 modId = "minecraft"
 mandatory = true
 versionRange = "[1.18.2,)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.fuelgoeshereironfurnaces]]
+[[dependencies.fuelgoeshereif]]
 modId = "ironfurnaces"
 mandatory = true
 versionRange = "[3.3.0,)"

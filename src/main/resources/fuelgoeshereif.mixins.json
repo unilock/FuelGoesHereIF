@@ -1,9 +1,10 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "rocks.katiekatiekatie.fuelgoeshereironfurnaces.mixin",
+  "package": "rocks.katiekatiekatie.fuelgoeshereif.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
+    "BlockIronFurnaceContainerBaseMixin"
   ],
   "injectors": {
     "defaultRequire": 1
